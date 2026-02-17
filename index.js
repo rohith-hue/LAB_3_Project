@@ -21,7 +21,7 @@ app.get('/date',function(req,resp){
 });
 app.get('/Wishes/:name',function(req,resp){
     var name = req.params.name;
-    resp.send(`Helloo ${name}`);
+    resp.send(`Hello ${name}`);
 });
 
 app.get('/square/:n',function(rep,resp){
